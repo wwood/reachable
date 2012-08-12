@@ -14,10 +14,10 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "wwood-reach"
-  gem.homepage = "http://github.com/wwood/reach"
+  gem.name = "reachable"
+  gem.homepage = "http://github.com/wwood/reachable"
   gem.license = "MIT"
-  gem.summary = %Q{Reach is a small Ruby liby that extends the Array class so that Arrays are more transparent
+  gem.summary = %Q{Reachable is a small Ruby liby that extends the Array class so that Arrays are more transparent
 to methods.}
   gem.description = %Q{For instance, a ReachableArray of Book objects can not only take normal Array methods such as
 collect and sum, but also methods that operate Book objects, such as author and title. }
