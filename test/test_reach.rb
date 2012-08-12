@@ -8,7 +8,7 @@
 $:.unshift File.join(File.dirname(__FILE__),'..','lib')
 
 require 'test/unit'
-require 'reach'
+require 'reachable'
 
 class ReachTest < Test::Unit::TestCase
   def setup
