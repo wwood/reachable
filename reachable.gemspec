@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben J Woodcroft"]
-  s.date = "2012-08-12"
+  s.date = "2012-08-13"
   s.description = "For instance, a ReachableArray of Book objects can not only take normal Array methods such as\ncollect and sum, but also methods that operate Book objects, such as author and title. "
   s.email = "gmail.com after donttrustben"
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/reachable.rb",
     "rdoc.sh",
+    "reachable.gemspec",
     "test/test_reach.rb"
   ]
   s.homepage = "http://github.com/wwood/reachable"
